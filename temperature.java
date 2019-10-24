@@ -48,6 +48,6 @@ public class temperature {
     answer = ((temp -273.15)*1.8)+32;
   }
 
-  System.out.printf("\n%.1f degrees " + destinationScale, answer);
+  System.out.printf("\n%.1f.", answer);
   }
 }
